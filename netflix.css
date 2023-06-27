@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7 )),url(photos/netflix\ header\ photo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo
+{
+    width: 150px;
+}
+nav button
+{
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.langbut
+{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px;
+}
+.globe
+{
+    width: 10px;
+
+}
+.arrow
+{
+    width: 10px; 
+}
+.headercontent
+{
+    text-align: center;
+    margin-top: 212px;
+    position: relative;
+}
+.headercontent h1
+{
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 70px;
+}
+.headercontent h3
+{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 70px;
+}
+.headercontent p
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.email input
+{
+    float: left;
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7 ));
+    border-radius: 5px;
+    border-color: white;
+    border-width: 1px;
+    margin-left: 300px;
+    margin-right: -278px;
+}
+.email button
+{
+    height: 50px;
+    cursor: pointer;
+    width: 250px;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+   border: none;
+    font-size: 23px;
+}
+.email button:hover
+{
+    opacity: 0.9;
+}
+.mainbody
+{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.leftcol
+{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.rightcol
+{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.rightcol img
+{
+    width: 90%;
+}
+.mainbody h2
+{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.faq
+{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 111px;
+    border-bottom-width: 2px;
+}
+.list
+{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 100%;
+}
+.list li
+{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.list li label
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500px;
+    background: #303030;
+    cursor: pointer;
+    position: relative;
+    height: 80px;
+}
+label::after
+{
+    content:'+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+}
+input[type="radio"]
+{
+    display: none;
+}
+#inputs
+{
+    margin-left: 234px;
+    margin-right: -221px;
+    margin-top: 30px;
+}
+#sign
+{
+    margin-top: 30px;
+}
+.footerq
+{
+    color: white;
+}
+.footer
+{
+    padding: 10px 12%; 
+}
+.bottomtable a
+{
+    color: white;
+    padding-left: 20px;
+    line-height: 30px;
+}
+.col 
+{
+    float: left;
+    width: 33%;
+}
+.botlang
+{
+    width: 10px;
+    color: white;
+    align-items: center;
+}
+
+#lang
+{
+    margin-top: 23px;
+    width: 123px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #161515;
+    color: white;
+    font-weight: bold;
+    border-width: medium;
+    border-radius: 9px;
+}
+#netflix
+{
+    margin-top: 30px;
+}
+#call
+{
+    margin-bottom: 38px;
+}
+ 
